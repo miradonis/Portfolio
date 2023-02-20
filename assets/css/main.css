@@ -1,0 +1,115 @@
+/*
+*=============================================
+?                 FONTS, COLORS
+
+*Font: 
+*Inter, weight 400
+
+*Color:
+*Header-Button, Header-Name: #4338CA
+*============================================
+*/
+
+/*
+=============================================
+?                   FONTS
+=============================================
+*/
+@font-face {
+    font-family: Inter-Variable;
+    src: url("../font/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+@font-face {
+    font-family: Inter-Thin;
+    src: url("../font/Inter-Thin.ttf");
+}
+
+@font-face {
+    font-family: Inter-Bold;
+    src: url("../font/Inter-Bold.ttf");
+}
+
+/*
+*===========================================
+?               GENERAL
+*===========================================
+*/
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+*============================================
+?               HEADER NAV
+*============================================
+*/
+header {
+    padding: 10vh 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    font-family: Inter-Variable;
+    font-size: 4rem;
+    color: #4338CA;
+}
+
+.navigation {
+    width: 40%;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul li {
+    list-style: none;
+    font-size: 2rem;
+}
+
+.navigation ul li a {
+    font-family: Inter-Variable;
+    text-decoration: none;
+    color: rgb(48, 48, 48);
+}
+
+.contactBtn {
+    background-color: #4338CA;
+    border: none;
+    border-radius: 20px;
+    padding: 7% 20%;
+    color: white;
+}
+
+/*
+*============================================
+?     main introduce yourelf and picture
+*============================================
+*/
+.introduceAndPic {
+    padding: 10vh 15vw;
+}
+
+.introduceText span {
+    letter-spacing: -5px;
+    margin-right: 3vw;
+}
+
+.welcome {
+    color: #4338CA;
+    font-family: Inter-Variable;
+    font-size: 3rem;
+}
